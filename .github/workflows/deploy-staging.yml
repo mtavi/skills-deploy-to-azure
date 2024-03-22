@@ -15,7 +15,10 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.labels.*.name, "stage")
-    
+        
+
     steps:
+    - uses: actions/checkout@v3
+    
     - name: Hello
       run: echo "hello"
