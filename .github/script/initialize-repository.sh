@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Make sure this file is executable
-# chmod a+x .github/script/initialize-repository.sh
+chmod a+x .github/script/initialize-repository.sh
 
 # USAGE: This should only be run once upon initial creation of the
 # learner's repository from the template repository. 
